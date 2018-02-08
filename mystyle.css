@@ -1,0 +1,19 @@
+:root {--sz:18px;}
+body{font: var(--sz) verdana; background: linear-gradient(to right, black, hsla(0,100%,50%,1), red, black); margin:0px; /*padding:30px*/} /* blue is 255
+/* hr{height:2%;background:RGBA(255,0,0,.2);margin:0px} */
+#header{padding: 1%; margin:1% 10% 1% 10%; min-height:50%; background: linear-gradient(to right, hsla(205,100%,50%,.3) 80%,red)}
+#footer{padding: 1%; margin:1% 10% 1% 10%; background: linear-gradient(to right, hsla(205,100%,50%,.3) 80%,red)} /* hue,sat,light,alpha */
+h1{ margin: 1% 5% 1% 5%; background: linear-gradient(to right, orange 3%,red 80%); font: 10ev/*32px*/ verdana }
+
+form{display: "inline" ; padding:1%; font: var(--sz) verdana; background:hsla(200,100%,50%,0.3); margin: 1% 5% 1% 5%; border: 0 }
+
+input{margin-left: 1%; background: linear-gradient(to right, brown,red); font:var(--sz) verdana; /*margin:1em;height:2em*/; border: 0}
+
+textarea{background: linear-gradient(to right, brown,red); margin: 1% 5% 1% 5%;
+    font: var(--sz) verdana; columns:50; padding:10px; border: 0; width: 90%}
+
+p{ padding:0% 1% 0 1%; margin: 0% 5% 0% 5%; background:linear-gradient(to right, hsla(200,100%,50%,0.3), hsla(200,100%,50%,0) );
+     border:0.2em; }
+
+buttons{margin: 5%; border: 0 }
+/*div{ }

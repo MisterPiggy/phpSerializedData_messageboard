@@ -1,0 +1,87 @@
+Weblog
+todo.
+    input Regular Expressions
+    Tables as Arrays
+    add forms 
+    add dummy contact,session,post
+    unserialize, serialize, 
+    think of all eventualities before coding.
+
+Basic precedure is
+Login or Reg then Read then post then logout
+
+Login
+    xLogin Logout ChangeData Read Register xPost xChaPost
+
+    h1.destroy, h.start session
+    f1 .SESSION['$speak'] = "Please login"
+    .backend. if file exists unserialize arrays form file
+    .if no success $speak = "nologin curr Possible. file undetected"
+        else F.$speak 'please log in'.
+    . on button 
+        checkinput of name, length of $pw, delay rand(2-3)seconds to prevent brutforce
+           if false $speak="Wrong login" LOGIN ELSE scan array $persons for $name 
+              if false $speak="Wrong login" LOGIN ELSE get person.id. check $pw in $persons
+                  if false $speak="Wrong login" LOGIN ELSE F.$speak="logged in as $name" read.php
+
+    
+     read.php
+    2.success READ 3.wrong l
+    H. login form nickname password
+    F. 
+Read
+    xLogin Logout ChaData xRead xRegister Post ChaPost
+Post
+    xLogin Logout ChaData Read xRegister xPost xChaPost
+Logout
+    xLogin xLogout xChaData xRead xRegister xPost xChaPost
+
+    ChaData
+    xLogin Logout ChaData Read xRegister xPost xChaPost
+    Register
+    xLogin Logout ChaData Read xRegister xPost xChaPost
+    ChaPost
+    xLogin Logout ChaData Read xRegister xPost xChaPost
+
+$users = array  // usderID, name, email 
+	(	array(0,"Fritz","fritz@ficki.de","ganzgeheim", "2017-25-10 15:30:00" ),
+
+Table Person    
+Id
+userName
+email
+password
+regdate
+
+$sessions = array // sessionID, FK PersonID, LogindateTime, LogoutDateTime
+(	array(0,0, "Ich bin geil gekommen", "2017-25-10 15:30:00", "2017-25-10 15:47:00"),...  
+
+Table Sessions
+Id
+Person.id
+LogindateTime,
+LogoutDateTime
+
+$messages = array // messID, FK SessionID, message txt, dateTime
+(	array(0,0, "Ich bin geil gekommen", "2017-25-10 15:30:00"),...  
+
+Table Posts
+Id
+FK Session.Id
+Text
+Datetime
+
+
+Screen
+LoginStatus ConfirmData Confirm
+Actions
+
+L. H.form
+L.
+Reg. H. form post submit or login
+Reg. F. Bad data. Validation result
+Reg. Read logindata on submit
+
+Arraypush name, email, Passwort
+Or
+Check if name and email combination exists. Search all names. If name in list check if Passwort email ok 

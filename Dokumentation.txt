@@ -1,0 +1,211 @@
+Dokumentation Projekt Weblog 'Pain Appreciation Society'. Alex 
+07.11.2017
+
+Beschreibung
+login als 
+billy passwort: rebel
+daisy passwort: duck
+michael: passwort jackson
+
+Die Session beginnt mit der Seite index.php. 
+Es gibt 2 Hauptarrays: messages und users. Jede Message hat den betreffenden Thread eingebaut. 
+Nach dem erfolgreichen Registrieren ist der User gleich eingeloggt. 
+Nach dem Login/der Registrierung wird messageboard.php angezeigt, wo der User posten kann. 
+Session3.php = erfolgreiche Abmeldung bestaetigt. 
+Register.php = Registrierung.
+Die Registrierung und Login wird verarbeitet in register_functions_cleanData_saveData_Login.php
+die Posts in messageboard_func_save_output_messages.php
+backend.php ist eine Singlepage Seite fuer das Backend.  
+
+
+Generell
+Das Projekt war wieder sehr zeitlich belastend wenn auch sehr lehrreich. 
+Dennoch ist auch hier wieder viel Zeit bei Fehlersuche verloren gegangen. 
+Ich habe etwa 1 ganze Woche jede freie Stunde damit verbracht, taeglich bis tief in die Nacht.
+
+Spaeter machte es viel mehr Spass, als die grundlegende Funktionalitaet stimmte und die Seite auch ein lustiges Thema und eigenes Design bekam
+Groesste Herausforderung war Struktur. 
+Obwohl ich viel Zeit am Anfang mit Planung verbrachte, musste ich staendig nachbesseren, weil mir die 
+Arbeitsweise mit Webseiten und besonders die Interaktion von PHP und HTML nicht vertraut war.
+
+Die erste Herausforderung waren mein Verstehen der SESSION Variablen und Sessions und Debugging. 
+Ich haette das Kapitel SESSIONS im Buch kurz durcharbeiten sollen. 
+Dadurch dass viel zuhause oder bis nachts in der Schule gearbeitet wurde, gingen wertvolle Stunden verloren bei der Fehlersuche.
+Ganz besonders war in einem Fall PHP Code in einem Button eingebettet, der zur Verlust von Variablen fuehrte.
+Zu Beginn des Projektes war ich kaum vertraut mit HTML oder CSS. Das kostete ein bis zwei Tage Arbeit. 
+Klares grundlegendes Verstaendnis und Experimentieren mit dem Boxmodell und relativen Werten brauchte Zeit. 
+Fuer das naechste Projekt nehme ich mir vor, ein noch klarereres, deutlicheres Flussdiagramm zu haben. 
+Dennoch hat mir meine Struktur geholfen. Zu sehen in den 
+Dateien weblogUML.txt weblog flowchart.txt 
+Besonders geholfen hat auch die Herangehensweise an die Datenstruktur durch das relative Datenbank Modell.
+Obwohl nicht mit SQL gearbeitet wurde, konnte ich so klare Struktur in die Arrays bringen. 
+Etwas verwirrend war die Aufteilung in Header und Footer und deren zeitlicher Ablauf. 
+
+
+
+positiv
+
+CSS 
+mir gefaellt mein Design. Es passt zum Thema 'Pain'. Allerdings gab es zuerst das Design. 
+Seite skaliert mit der Groesse des Browserfensters, 
+verwendung von CSS Variablen
+User posts sind durch eigene Farbe erkennbar.
+Farben harmonieren gut durch verwendung von Alpha leveln. 
+
+Logik
+keine Anomalien bekannt im Rahmen der Funktionalitaet
+User kann sich registrieren,
+Auch bei Direktaufruf der Seiten gibt es keine Fehlermeldungen
+
+implementiert: backend 
+Backend: zeige alle user, loesche user nr x, zeige alle nachrichten, zeige nur threads
+eigene tools geschrieben
+funktion makeTable. Erzeugt eine Tabelle aus einem uebergebenen multiplen Array mit optionalen parametern, welche Felder nicht angezeigen werden sollen
+tool tool_gather_all_php_in_one_file. zum debugging.
+Simples aber technisch klares Design im Backend. Alles auf 1 Seite. Buttons werden abgefragt. 
+Frontend: Threads, Userstatus werden automatisch aktualisiert
+Testweise wurde im Backend eine Singlepageanwendung gemacht, die sehr gut funktioniert. Auch saemtlicher Code ist auf 1 Seite.
+
+Es existieren lokale ToDos und Kommentare. 
+
+
+
+NEGATIV 
+
+
+Obwohl ich strukturiert vorgegangen bin und ein Flussdiagramm erstelle habe, musste stets nachgebessert werden. 
+Das lag auch daran, dass bestimmtes wichtiges Wissen erst im Laufe des Projektes angeeignet wurde. 
+
+noch kein 'perfekter' Schutz vor Hacking. Es fehlen is_string bei Textfeldern als Schutz vor Array- Fehlererzeugung.
+Es gibt keinen separaten Login zum Backend
+
+Dateinamen nicht eindeutig. index messageboard etc. sollten anders heissen. 
+
+User Doppelregistrierung noch moeglich
+Fehlerfeedback noch unvollstaendig. Der User wird nur generell ermahnt keine falschen Zeichen einzugeben. 
+nicht komplett normalisiert. Es fehlt eine Tabelle fuer Threads und User.Sessions
+User kann deshalb nicht gekickt werden. 
+HTML und CSS Kentnisse wurden waehrend des Projektes angeeignet. Dadurch gibt es im Frontend keine Buttons fuer Themenwahl
+  stattdessen muss der Thread per tastatur eingegeben werden.
+
+eigene Messages koennen nicht geloescht werden. 
+Es kann nicht direkt auf andere Messages geantwortet werden.
+Es fehlt einen UserSession. Am Anfang wollte ich einen Table dafuer erzeugen, habe das dann verworfen zur Vermeidung von Komplexitaet
+kein Taschenrechner
+hoher Zeitaufwand
+keine Images
+
+
+Funktion
+
+index.php
+1. link to css stylesheet mystyle.css
+2.  head body div
+                index_loginForm_RegisterButton_Top
+                index_pleaseLogIn_footer
+
+messageboard.php
+1. link to css stylesheet mystyle.css
+2.  head body div
+                messageboard_interact_top
+                messageboard_showMessages_bottom
+
+session3.php  = confirm logout
+1. link to css stylesheet mystyle.css
+2.  head body div
+                loggedOut_h
+                loggedOut_footer
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+index_loginForm_RegisterButton_Top: 
+1. kill running Session
+2. start new 
+3. h1 Titel
+4. delete session vars
+5. initialise session variables 
+    bool loginGood = false , 
+    username,
+    chosenThread, threads, userID = null
+6. Form. method post
+        username
+        pw
+        button login
+        action -> messageboard.php
+7. button register
+        get -> register.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+index_pleaseLogIn_footer
+1. session start if none
+2. h1>Tell us where it hurts</h1
+3. <p>please log in or register. Do not use silly characters.</p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+messageboard_interact_top: 
+1. start session if none
+2. h1 Titel
+// before any button is pushed everytime site is updated
+3. if array messages not set and file messages.txt exists
+        make messages array
+        unserialize messages.txt -> messages array
+4. if exists username, write "username is online."
+5. get and display unique subjects.
+   if exists messages array
+    load subjects from messages into temparray
+    html div style subject 
+
+6.  <!-- redirecting to self with header to delete POST data and prevent submitting data if user reloads page -->
+    "new or current topic" 
+    input text 'thread' value ''
+    input text area 'comment' value 'comment!'
+    button 'ok' value 'comment!'
+
+7. form submit get button 'btnBackend' 
+    => backend.php
+8. btnlogout 
+    => session3.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+messageboard_showMessages_bottom.php
+the header calls this page again if button comment is pushed, because action = '' empty
+it processes this footer script everytime the comment button is hit
+1. session start
+2. if no chosenThread write "<h1>Tell us where it hurts</h1>"
+   else write chosenThread
+3. if not exists loginGood => "Ihre Session ist vermutlich abgelaufen. 
+   exit
+4. when page calls itself no need to log in again
+   if loginGood FALSE => register_functions_cleanData_saveData_Login.php
+5. process and show messages ON button push
+   means nothing happens here automatically when page loaded
+6. if loginGood & exists comment from comment form 
+        => require messageboard_func_save_output_messages.php
+        and then outputComment();
+   else header location:index.php
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+session3.php = after logout 
+session start if not
+head link mystyle.css 
+    body    div id="header" require => loggedOut_header.php
+            div id="footer" require => loggedOut_footer.php
+
+    loggedOut_header.php
+    session start, session_unset(), session_destroy();
+    h1
+    form get => "index.php" 
+    <input type="hidden" name="act" value="run">
+    <input type="submit" name = "OK" value="log in again">
+
+    loggedOut_footer.php
+    1. start session
+    2. echo "<h1>Tell us where it hurts</h1>"; 
+    3. if exists username 
+            => userName ist still online
+            else => please log in
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

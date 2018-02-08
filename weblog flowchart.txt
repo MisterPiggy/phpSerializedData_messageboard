@@ -1,0 +1,25 @@
+Flussdiagramm weblog alex
+
+version1
+s1 
+  h.POST(var)onButton(calls s1) 
+  f1 
+     leseD
+          if isset POST.var then SESS.var= POST.var
+     write SESS.var
+     if !null SESS.var then echo SESS.var
+
+
+version2
+s1
+  h1. kill and new session
+  h1. POST(var)onButton(calls s2)
+  f1  please log in
+s2 
+  h2.POST(comment)
+  f2.
+     sessionstart()
+     leseData: if !POST.var SESS.var = POST.var
+     if !null SESS.var then echo SESS.var
+
+

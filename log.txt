@@ -1,0 +1,812 @@
+
+41:31	index.php
+41:31		index_loginForm_RegisterButton_Top.php
+41:31		index_pleaseLogin_footer.php
+41:49	scrutinizeAndLogin.php
+41:49	function scritinizeLoginData()
+41:49		function login().. unserializes regusers.txt compare username and pw
+41:49		found Username in users.txt
+41:49		pw is good
+41:49		login() set loginGood to TRUE
+41:49	messageboard.php
+41:49		messageboard_interact_top.php
+41:49		unserialize messages.txt array
+41:49		iterate through array and html show
+41:49		btn button ok, button btnBackend, button btnlogout
+41:49		messageboard_showMessages_bottom.php
+41:49		messageboard_func_save_output_messages.php
+41:57	backend.php
+41:59	backend.php
+41:59	messageboard.php
+41:59		messageboard_interact_top.php
+41:59		unserialize messages.txt array
+41:59		iterate through array and html show
+41:59		btn button ok, button btnBackend, button btnlogout
+41:59		messageboard_showMessages_bottom.php
+41:59		messageboard_func_save_output_messages.php
+07:05	messageboard.php
+07:05		messageboard_interact_top.php
+07:05		unserialize messages.txt array
+07:05		iterate through array and html show
+07:05		btn button ok, button btnBackend, button btnlogout
+07:05		messageboard_showMessages_bottom.php
+07:05		messageboard_func_save_output_messages.php
+07:23	messageboard.php
+07:23		messageboard_interact_top.php
+07:23		unserialize messages.txt array
+07:23		iterate through array and html show
+07:23		btn button ok, button btnBackend, button btnlogout
+07:23		messageboard_showMessages_bottom.php
+07:23		messageboard_func_save_output_messages.php
+07:23	messageboard.php
+07:23		messageboard_interact_top.php
+07:23		unserialize messages.txt array
+07:23		iterate through array and html show
+07:23		btn button ok, button btnBackend, button btnlogout
+07:23		messageboard_showMessages_bottom.php
+07:23		messageboard_func_save_output_messages.php
+07:27	backend.php
+07:28	backend.php
+07:35	backend.php
+07:39	backend.php
+07:47	backend.php
+07:47	messageboard.php
+07:47		messageboard_interact_top.php
+07:47		unserialize messages.txt array
+07:47		iterate through array and html show
+07:47		btn button ok, button btnBackend, button btnlogout
+07:47		messageboard_showMessages_bottom.php
+07:47		messageboard_func_save_output_messages.php
+08:08	loggedOut.php
+08:08	loggedOut.php
+08:08		loggedOut_header.php
+08:08		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+08:08		loggedOut_footer.php
+08:10	index.php
+08:10		index_loginForm_RegisterButton_Top.php
+08:10		index_pleaseLogin_footer.php
+08:11	register.php ... 
+08:11		register_form_top.php
+08:11		register_form_top.php
+08:41	messageboard.php
+08:41	index.php
+08:41		index_loginForm_RegisterButton_Top.php
+08:41		index_pleaseLogin_footer.php
+08:48	scrutinizeAndLogin.php
+08:48	function scritinizeLoginData()
+08:48		function login().. unserializes regusers.txt compare username and pw
+08:48		login() set loginGood to FALSE
+08:48	index.php
+08:48		index_loginForm_RegisterButton_Top.php
+08:48		index_pleaseLogin_footer.php
+09:17	register.php ... 
+09:17		register_form_top.php
+09:17		register_form_top.php
+09:29	messageboard.php
+09:29	index.php
+09:29		index_loginForm_RegisterButton_Top.php
+09:29		index_pleaseLogin_footer.php
+15:00	register.php ... 
+15:00		register_form_top.php
+15:00		register_form_top.php
+28:47	register.php ... 
+28:47		register_form_top.php
+28:47		register_form_top.php
+30:13	register.php ... 
+30:13		register_form_top.php
+30:13		register_form_top.php
+30:21	scrutinizeAndLogin.php
+30:21	function scritinizeLoginData()
+30:21		function login().. unserializes regusers.txt compare username and pw
+30:21		login() set loginGood to FALSE
+30:22	index.php
+30:22		index_loginForm_RegisterButton_Top.php
+30:22		index_pleaseLogin_footer.php
+30:26	scrutinizeAndLogin.php
+30:26	function scritinizeLoginData()
+30:26		function login().. unserializes regusers.txt compare username and pw
+30:26		login() set loginGood to FALSE
+30:26	index.php
+30:26		index_loginForm_RegisterButton_Top.php
+30:26		index_pleaseLogin_footer.php
+30:36	scrutinizeAndLogin.php
+30:36	function scritinizeLoginData()
+30:36		function login().. unserializes regusers.txt compare username and pw
+30:36		found Username in users.txt
+30:36		pw is good
+30:36		login() set loginGood to TRUE
+30:37	messageboard.php
+30:37		messageboard_interact_top.php
+30:37		unserialize messages.txt array
+30:37		iterate through array and html show
+30:37		btn button ok, button btnBackend, button btnlogout
+30:37		messageboard_showMessages_bottom.php
+30:37		messageboard_func_save_output_messages.php
+30:39	backend.php
+30:40	backend.php
+30:45	backend.php
+30:45	messageboard.php
+30:45		messageboard_interact_top.php
+30:45		unserialize messages.txt array
+30:45		iterate through array and html show
+30:45		btn button ok, button btnBackend, button btnlogout
+30:45		messageboard_showMessages_bottom.php
+30:45		messageboard_func_save_output_messages.php
+30:47	loggedOut.php
+30:47	loggedOut.php
+30:47		loggedOut_header.php
+30:47		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+30:47		loggedOut_footer.php
+30:48	index.php
+30:48		index_loginForm_RegisterButton_Top.php
+30:48		index_pleaseLogin_footer.php
+30:52	register.php ... 
+30:52		register_form_top.php
+30:52		register_form_top.php
+31:25	register.php ... 
+31:25		register_form_top.php
+31:25		register_form_top.php
+31:42	scrutinizeAndLogin.php
+31:42	function scritinizeLoginData()
+31:42		function login().. unserializes regusers.txt compare username and pw
+31:42		login() set loginGood to FALSE
+31:42	index.php
+31:42		index_loginForm_RegisterButton_Top.php
+31:42		index_pleaseLogin_footer.php
+32:17	register.php ... 
+32:17		register_form_top.php
+32:17		register_form_top.php
+32:23	scrutinizeAndLogin.php
+32:23	function scritinizeLoginData()
+32:23		function login().. unserializes regusers.txt compare username and pw
+32:23		login() set loginGood to FALSE
+32:23	index.php
+32:23		index_loginForm_RegisterButton_Top.php
+32:23		index_pleaseLogin_footer.php
+32:56	scrutinizeAndLogin.php
+32:56	function scritinizeLoginData()
+32:56	index.php
+32:56		index_loginForm_RegisterButton_Top.php
+32:56		index_pleaseLogin_footer.php
+32:58	register.php ... 
+32:58		register_form_top.php
+32:58		register_form_top.php
+33:05	scrutinizeAndLogin.php
+33:05	function scritinizeLoginData()
+33:05		function login().. unserializes regusers.txt compare username and pw
+33:05		login() set loginGood to FALSE
+33:05	index.php
+33:05		index_loginForm_RegisterButton_Top.php
+33:05		index_pleaseLogin_footer.php
+34:14	index.php
+34:14		index_loginForm_RegisterButton_Top.php
+34:14		index_pleaseLogin_footer.php
+34:17	register.php ... 
+34:17		register_form_top.php
+34:17		register_form_top.php
+34:21	scrutinizeAndLogin.php
+34:22	function scritinizeLoginData()
+34:22		function login().. unserializes regusers.txt compare username and pw
+34:22		login() set loginGood to FALSE
+34:22	index.php
+34:22		index_loginForm_RegisterButton_Top.php
+34:22		index_pleaseLogin_footer.php
+34:28	register.php ... 
+34:28		register_form_top.php
+34:28		register_form_top.php
+34:37	scrutinizeAndLogin.php
+34:37	function scritinizeLoginData()
+34:37		function login().. unserializes regusers.txt compare username and pw
+34:37		login() set loginGood to FALSE
+34:37	index.php
+34:37		index_loginForm_RegisterButton_Top.php
+34:37		index_pleaseLogin_footer.php
+38:21	register.php ... 
+38:21		register_form_top.php
+38:21		register_form_top.php
+38:29	scrutinizeAndLogin.php
+38:29	function scritinizeLoginData()
+38:29		function login().. unserializes regusers.txt compare username and pw
+38:29		login() set loginGood to FALSE
+38:29	index.php
+38:29		index_loginForm_RegisterButton_Top.php
+38:29		index_pleaseLogin_footer.php
+38:34	index.php
+38:34		index_loginForm_RegisterButton_Top.php
+38:34		index_pleaseLogin_footer.php
+38:34	index.php
+38:34		index_loginForm_RegisterButton_Top.php
+38:34		index_pleaseLogin_footer.php
+38:35	index.php
+38:35		index_loginForm_RegisterButton_Top.php
+38:35		index_pleaseLogin_footer.php
+38:35	index.php
+38:35		index_loginForm_RegisterButton_Top.php
+38:35		index_pleaseLogin_footer.php
+38:35	index.php
+38:35		index_loginForm_RegisterButton_Top.php
+38:35		index_pleaseLogin_footer.php
+38:35	index.php
+38:35		index_loginForm_RegisterButton_Top.php
+38:35		index_pleaseLogin_footer.php
+38:39	register.php ... 
+38:39		register_form_top.php
+38:39		register_form_top.php
+38:51	scrutinizeAndLogin.php
+38:51	function scritinizeLoginData()
+38:51		function login().. unserializes regusers.txt compare username and pw
+38:51		login() set loginGood to FALSE
+38:51	index.php
+38:51		index_loginForm_RegisterButton_Top.php
+38:51		index_pleaseLogin_footer.php
+39:13	index.php
+39:13		index_loginForm_RegisterButton_Top.php
+39:13		index_pleaseLogin_footer.php
+39:15	register.php ... 
+39:15		register_form_top.php
+39:15		register_form_top.php
+39:24	scrutinizeAndLogin.php
+39:24	function scritinizeLoginData()
+39:24		function login().. unserializes regusers.txt compare username and pw
+39:24		login() set loginGood to FALSE
+39:24	index.php
+39:24		index_loginForm_RegisterButton_Top.php
+39:24		index_pleaseLogin_footer.php
+40:17	register.php ... 
+40:17		register_form_top.php
+40:17		register_form_top.php
+44:05	register.php ... 
+44:05		register_form_top.php
+44:05		register_form_top.php
+44:07	index.php
+44:07		index_loginForm_RegisterButton_Top.php
+44:07		index_pleaseLogin_footer.php
+44:08	register.php ... 
+44:08		register_form_top.php
+44:08		register_form_top.php
+44:20		register_functions_cleanData_saveData_Login.php
+44:56		register_functions_cleanData_saveData_Login.php
+44:56	function saveRegisDataInUserFile()
+44:57	register.php ... 
+44:57		register_form_top.php
+44:57		register_form_top.php
+45:01		register_functions_cleanData_saveData_Login.php
+45:01	function saveRegisDataInUserFile()
+45:41		register_functions_cleanData_saveData_Login.php
+45:41	function saveRegisDataInUserFile()
+45:41	scrutinizeAndLogin.php
+45:41	function scritinizeLoginData()
+45:41		function login().. unserializes regusers.txt compare username and pw
+45:41		found Username in users.txt
+45:41		pw is good
+45:41		login() set loginGood to TRUE
+45:41	messageboard.php
+45:41		messageboard_interact_top.php
+45:41		unserialize messages.txt array
+45:41		iterate through array and html show
+45:41		btn button ok, button btnBackend, button btnlogout
+45:41		messageboard_showMessages_bottom.php
+45:41		messageboard_func_save_output_messages.php
+45:44	backend.php
+45:46	backend.php
+46:03	backend.php
+46:03	messageboard.php
+46:03		messageboard_interact_top.php
+46:03		unserialize messages.txt array
+46:03		iterate through array and html show
+46:03		btn button ok, button btnBackend, button btnlogout
+46:03		messageboard_showMessages_bottom.php
+46:03		messageboard_func_save_output_messages.php
+46:05	loggedOut.php
+46:05	loggedOut.php
+46:05		loggedOut_header.php
+46:05		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+46:05		loggedOut_footer.php
+46:06	index.php
+46:06		index_loginForm_RegisterButton_Top.php
+46:06		index_pleaseLogin_footer.php
+46:08	register.php ... 
+46:08		register_form_top.php
+46:08		register_form_top.php
+46:20		register_functions_cleanData_saveData_Login.php
+46:20	function saveRegisDataInUserFile()
+46:20	scrutinizeAndLogin.php
+46:20	function scritinizeLoginData()
+46:20		function login().. unserializes regusers.txt compare username and pw
+46:20		found Username in users.txt
+46:20		pw is bad
+46:20	index.php
+46:20		index_loginForm_RegisterButton_Top.php
+46:20		index_pleaseLogin_footer.php
+46:26	scrutinizeAndLogin.php
+46:26	function scritinizeLoginData()
+46:26		function login().. unserializes regusers.txt compare username and pw
+46:26		found Username in users.txt
+46:26		pw is bad
+46:26	index.php
+46:26		index_loginForm_RegisterButton_Top.php
+46:26		index_pleaseLogin_footer.php
+46:42	scrutinizeAndLogin.php
+46:42	function scritinizeLoginData()
+46:42		function login().. unserializes regusers.txt compare username and pw
+46:42		found Username in users.txt
+46:42		pw is good
+46:42		login() set loginGood to TRUE
+46:42	messageboard.php
+46:42		messageboard_interact_top.php
+46:42		unserialize messages.txt array
+46:42		iterate through array and html show
+46:42		btn button ok, button btnBackend, button btnlogout
+46:42		messageboard_showMessages_bottom.php
+46:42		messageboard_func_save_output_messages.php
+46:44	backend.php
+46:46	backend.php
+46:56	backend.php
+46:56	messageboard.php
+46:56		messageboard_interact_top.php
+46:56		unserialize messages.txt array
+46:56		iterate through array and html show
+46:56		btn button ok, button btnBackend, button btnlogout
+46:56		messageboard_showMessages_bottom.php
+46:56		messageboard_func_save_output_messages.php
+46:59	loggedOut.php
+46:59	loggedOut.php
+46:59		loggedOut_header.php
+46:59		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+46:59		loggedOut_footer.php
+47:00	index.php
+47:00		index_loginForm_RegisterButton_Top.php
+47:00		index_pleaseLogin_footer.php
+47:06	scrutinizeAndLogin.php
+47:06	function scritinizeLoginData()
+47:06		function login().. unserializes regusers.txt compare username and pw
+47:06		found Username in users.txt
+47:06		pw is bad
+47:06	index.php
+47:06		index_loginForm_RegisterButton_Top.php
+47:06		index_pleaseLogin_footer.php
+47:45	scrutinizeAndLogin.php
+47:53	function scritinizeLoginData()
+49:05		function login().. unserializes regusers.txt compare username and pw
+51:02		found Username in users.txt
+51:22		pw is bad
+51:57	index.php
+51:57		index_loginForm_RegisterButton_Top.php
+51:57		index_pleaseLogin_footer.php
+53:24	scrutinizeAndLogin.php
+53:24	function scritinizeLoginData()
+53:24		function login().. unserializes regusers.txt compare username and pw
+53:24		found Username in users.txt
+53:24		pw is good
+53:24		login() set loginGood to TRUE
+53:24	messageboard.php
+53:24		messageboard_interact_top.php
+53:24		unserialize messages.txt array
+53:24		iterate through array and html show
+53:24		btn button ok, button btnBackend, button btnlogout
+53:24		messageboard_showMessages_bottom.php
+53:24		messageboard_func_save_output_messages.php
+53:26	backend.php
+53:38	backend.php
+54:01	backend.php
+54:04	backend.php
+54:26	backend.php
+54:27	messageboard.php
+54:27		messageboard_interact_top.php
+54:27		unserialize messages.txt array
+54:27		iterate through array and html show
+54:27		btn button ok, button btnBackend, button btnlogout
+54:27		messageboard_showMessages_bottom.php
+54:27		messageboard_func_save_output_messages.php
+54:29	loggedOut.php
+54:29	loggedOut.php
+54:29		loggedOut_header.php
+54:29		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+54:29		loggedOut_footer.php
+54:30	index.php
+54:30		index_loginForm_RegisterButton_Top.php
+54:30		index_pleaseLogin_footer.php
+54:34	scrutinizeAndLogin.php
+54:34	function scritinizeLoginData()
+54:34		function login().. unserializes regusers.txt compare username and pw
+54:34		found Username in users.txt
+54:34		pw is good
+54:34		login() set loginGood to TRUE
+54:35	messageboard.php
+54:35		messageboard_interact_top.php
+54:35		unserialize messages.txt array
+54:35		iterate through array and html show
+54:35		btn button ok, button btnBackend, button btnlogout
+54:35		messageboard_showMessages_bottom.php
+54:35		messageboard_func_save_output_messages.php
+54:37	loggedOut.php
+54:37	loggedOut.php
+54:37		loggedOut_header.php
+54:37		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+54:37		loggedOut_footer.php
+54:38	index.php
+54:38		index_loginForm_RegisterButton_Top.php
+54:38		index_pleaseLogin_footer.php
+59:07	scrutinizeAndLogin.php
+59:07	function scritinizeLoginData()
+59:07		function login().. unserializes regusers.txt compare username and pw
+59:08		found Username in users.txt
+59:08		pw is good
+59:08		login() set loginGood to TRUE
+59:08	messageboard.php
+59:08		messageboard_interact_top.php
+59:08		unserialize messages.txt array
+59:08		iterate through array and html show
+59:08		btn button ok, button btnBackend, button btnlogout
+59:08		messageboard_showMessages_bottom.php
+59:08		messageboard_func_save_output_messages.php
+59:10	backend.php
+59:17	backend.php
+59:19	backend.php
+59:27	backend.php
+59:42	backend.php
+59:47	backend.php
+59:47	messageboard.php
+59:47		messageboard_interact_top.php
+59:47		unserialize messages.txt array
+59:47		iterate through array and html show
+59:47		btn button ok, button btnBackend, button btnlogout
+59:47		messageboard_showMessages_bottom.php
+59:47		messageboard_func_save_output_messages.php
+59:53	messageboard.php
+59:53		messageboard_interact_top.php
+59:53		unserialize messages.txt array
+59:53		iterate through array and html show
+59:53		btn button ok, button btnBackend, button btnlogout
+59:53		messageboard_showMessages_bottom.php
+59:53		messageboard_func_save_output_messages.php
+00:09	backend.php
+00:16	backend.php
+00:18	backend.php
+00:21	backend.php
+00:21	messageboard.php
+00:21		messageboard_interact_top.php
+00:21		unserialize messages.txt array
+00:21		iterate through array and html show
+00:21		btn button ok, button btnBackend, button btnlogout
+00:21		messageboard_showMessages_bottom.php
+00:21		messageboard_func_save_output_messages.php
+00:56	messageboard.php
+00:56		messageboard_interact_top.php
+00:56		unserialize messages.txt array
+00:56		iterate through array and html show
+00:56		btn button ok, button btnBackend, button btnlogout
+00:56		messageboard_showMessages_bottom.php
+00:56		messageboard_func_save_output_messages.php
+00:56	messageboard.php
+00:56		messageboard_interact_top.php
+00:56		unserialize messages.txt array
+00:56		iterate through array and html show
+00:56		btn button ok, button btnBackend, button btnlogout
+00:56		messageboard_showMessages_bottom.php
+00:56		messageboard_func_save_output_messages.php
+01:04	loggedOut.php
+01:04	loggedOut.php
+01:04		loggedOut_header.php
+01:04		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+01:04		loggedOut_footer.php
+01:05	index.php
+01:05		index_loginForm_RegisterButton_Top.php
+01:05		index_pleaseLogin_footer.php
+01:11	scrutinizeAndLogin.php
+01:11	function scritinizeLoginData()
+01:11		function login().. unserializes regusers.txt compare username and pw
+01:11		login() set loginGood to FALSE
+01:11	index.php
+01:11		index_loginForm_RegisterButton_Top.php
+01:11		index_pleaseLogin_footer.php
+01:39	register.php ... 
+01:39		register_form_top.php
+01:39		register_form_top.php
+01:50		register_functions_cleanData_saveData_Login.php
+01:50	function saveRegisDataInUserFile()
+01:50	scrutinizeAndLogin.php
+01:50	function scritinizeLoginData()
+01:50		function login().. unserializes regusers.txt compare username and pw
+01:50		found Username in users.txt
+01:50		pw is good
+01:50		login() set loginGood to TRUE
+01:50	messageboard.php
+01:50		messageboard_interact_top.php
+01:50		unserialize messages.txt array
+01:50		iterate through array and html show
+01:50		btn button ok, button btnBackend, button btnlogout
+01:50		messageboard_showMessages_bottom.php
+01:50		messageboard_func_save_output_messages.php
+01:54	backend.php
+01:55	backend.php
+01:58	backend.php
+02:01	backend.php
+02:01	messageboard.php
+02:01		messageboard_interact_top.php
+02:01		unserialize messages.txt array
+02:01		iterate through array and html show
+02:01		btn button ok, button btnBackend, button btnlogout
+02:01		messageboard_showMessages_bottom.php
+02:01		messageboard_func_save_output_messages.php
+02:19	messageboard.php
+02:19		messageboard_interact_top.php
+02:19		unserialize messages.txt array
+02:19		iterate through array and html show
+02:19		btn button ok, button btnBackend, button btnlogout
+02:19		messageboard_showMessages_bottom.php
+02:19		messageboard_func_save_output_messages.php
+02:20	messageboard.php
+02:20		messageboard_interact_top.php
+02:20		unserialize messages.txt array
+02:20		iterate through array and html show
+02:20		btn button ok, button btnBackend, button btnlogout
+02:20		messageboard_showMessages_bottom.php
+02:20		messageboard_func_save_output_messages.php
+02:32	backend.php
+02:34	backend.php
+02:36	backend.php
+02:40	backend.php
+02:47	backend.php
+02:47	messageboard.php
+02:47		messageboard_interact_top.php
+02:47		unserialize messages.txt array
+02:47		iterate through array and html show
+02:47		btn button ok, button btnBackend, button btnlogout
+02:47		messageboard_showMessages_bottom.php
+02:47		messageboard_func_save_output_messages.php
+02:56	loggedOut.php
+02:56	loggedOut.php
+02:56		loggedOut_header.php
+02:56		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+02:56		loggedOut_footer.php
+02:58	index.php
+02:58		index_loginForm_RegisterButton_Top.php
+02:58		index_pleaseLogin_footer.php
+03:00	register.php ... 
+03:00		register_form_top.php
+03:00		register_form_top.php
+03:17		register_functions_cleanData_saveData_Login.php
+03:17	function saveRegisDataInUserFile()
+03:17	scrutinizeAndLogin.php
+03:17	function scritinizeLoginData()
+03:17		function login().. unserializes regusers.txt compare username and pw
+03:17		found Username in users.txt
+03:17		pw is good
+03:17		login() set loginGood to TRUE
+03:18	messageboard.php
+03:18		messageboard_interact_top.php
+03:18		unserialize messages.txt array
+03:18		iterate through array and html show
+03:18		btn button ok, button btnBackend, button btnlogout
+03:18		messageboard_showMessages_bottom.php
+03:18		messageboard_func_save_output_messages.php
+03:38	messageboard.php
+03:38		messageboard_interact_top.php
+03:38		unserialize messages.txt array
+03:38		iterate through array and html show
+03:38		btn button ok, button btnBackend, button btnlogout
+03:38		messageboard_showMessages_bottom.php
+03:38		messageboard_func_save_output_messages.php
+03:38	messageboard.php
+03:38		messageboard_interact_top.php
+03:38		unserialize messages.txt array
+03:38		iterate through array and html show
+03:38		btn button ok, button btnBackend, button btnlogout
+03:38		messageboard_showMessages_bottom.php
+03:38		messageboard_func_save_output_messages.php
+11:48	loggedOut.php
+11:48	loggedOut.php
+11:48		loggedOut_header.php
+11:48		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+11:48		loggedOut_footer.php
+11:50	index.php
+11:50		index_loginForm_RegisterButton_Top.php
+11:50		index_pleaseLogin_footer.php
+11:51	register.php ... 
+11:51		register_form_top.php
+11:51		register_form_top.php
+11:54	index.php
+11:54		index_loginForm_RegisterButton_Top.php
+11:54		index_pleaseLogin_footer.php
+14:05	scrutinizeAndLogin.php
+14:05	function scritinizeLoginData()
+14:05	index.php
+14:05		index_loginForm_RegisterButton_Top.php
+14:05		index_pleaseLogin_footer.php
+14:06	register.php ... 
+14:06		register_form_top.php
+14:06		register_form_top.php
+14:07	index.php
+14:07		index_loginForm_RegisterButton_Top.php
+14:07		index_pleaseLogin_footer.php
+17:43	backend.php
+17:44	messageboard.php
+17:44	index.php
+17:44		index_loginForm_RegisterButton_Top.php
+17:44		index_pleaseLogin_footer.php
+18:32		register_functions_cleanData_saveData_Login.php
+34:22	index.php
+34:22		index_loginForm_RegisterButton_Top.php
+34:22		index_pleaseLogin_footer.php
+34:25	scrutinizeAndLogin.php
+34:25	function scritinizeLoginData()
+34:25	index.php
+34:25		index_loginForm_RegisterButton_Top.php
+34:25		index_pleaseLogin_footer.php
+36:29		loggedOut_footer.php
+38:53	index.php
+38:53		index_loginForm_RegisterButton_Top.php
+38:53		index_pleaseLogin_footer.php
+03:34	scrutinizeAndLogin.php
+03:34	function scritinizeLoginData()
+03:34		function login().. unserializes regusers.txt compare username and pw
+03:34		login() set loginGood to FALSE
+03:34	index.php
+03:34		index_loginForm_RegisterButton_Top.php
+03:34		index_pleaseLogin_footer.php
+59:25	index.php
+59:25		index_loginForm_RegisterButton_Top.php
+59:26		index_pleaseLogin_footer.php
+59:33	scrutinizeAndLogin.php
+59:33	function scritinizeLoginData()
+59:33		function login().. unserializes regusers.txt compare username and pw
+59:33		found Username in users.txt
+59:33		pw is good
+59:33		login() set loginGood to TRUE
+59:33	messageboard.php
+59:33		messageboard_interact_top.php
+59:33		unserialize messages.txt array
+59:33		iterate through array and html show
+59:33		btn button ok, button btnBackend, button btnlogout
+59:33		messageboard_showMessages_bottom.php
+59:33		messageboard_func_save_output_messages.php
+59:45	messageboard.php
+59:45		messageboard_interact_top.php
+59:45		unserialize messages.txt array
+59:45		iterate through array and html show
+59:45		btn button ok, button btnBackend, button btnlogout
+59:45		messageboard_showMessages_bottom.php
+59:45		messageboard_func_save_output_messages.php
+59:51	loggedOut.php
+59:51	loggedOut.php
+59:51		loggedOut_header.php
+59:51		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+59:51		loggedOut_footer.php
+59:55	index.php
+59:55		index_loginForm_RegisterButton_Top.php
+59:55		index_pleaseLogin_footer.php
+59:59	register.php ... 
+59:59		register_form_top.php
+59:59		register_form_top.php
+00:18		register_functions_cleanData_saveData_Login.php
+00:18	function saveRegisDataInUserFile()
+00:18	scrutinizeAndLogin.php
+00:18	function scritinizeLoginData()
+00:18		function login().. unserializes regusers.txt compare username and pw
+00:18		found Username in users.txt
+00:18		pw is good
+00:18		login() set loginGood to TRUE
+00:18	messageboard.php
+00:18		messageboard_interact_top.php
+00:18		unserialize messages.txt array
+00:18		iterate through array and html show
+00:18		btn button ok, button btnBackend, button btnlogout
+00:18		messageboard_showMessages_bottom.php
+00:18		messageboard_func_save_output_messages.php
+00:47	messageboard.php
+00:47		messageboard_interact_top.php
+00:47		unserialize messages.txt array
+00:47		iterate through array and html show
+00:47		btn button ok, button btnBackend, button btnlogout
+00:47		messageboard_showMessages_bottom.php
+00:47		messageboard_func_save_output_messages.php
+00:47	messageboard.php
+00:47		messageboard_interact_top.php
+00:47		unserialize messages.txt array
+00:47		iterate through array and html show
+00:47		btn button ok, button btnBackend, button btnlogout
+00:47		messageboard_showMessages_bottom.php
+00:47		messageboard_func_save_output_messages.php
+04:44	loggedOut.php
+04:44	loggedOut.php
+04:44		loggedOut_header.php
+04:44		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+04:44		loggedOut_footer.php
+04:45	index.php
+04:45		index_loginForm_RegisterButton_Top.php
+04:45		index_pleaseLogin_footer.php
+04:52	scrutinizeAndLogin.php
+04:52	function scritinizeLoginData()
+04:52		function login().. unserializes regusers.txt compare username and pw
+04:52		found Username in users.txt
+04:52		pw is good
+04:52		login() set loginGood to TRUE
+04:52	messageboard.php
+04:52		messageboard_interact_top.php
+04:52		unserialize messages.txt array
+04:52		iterate through array and html show
+04:52		btn button ok, button btnBackend, button btnlogout
+04:52		messageboard_showMessages_bottom.php
+04:52		messageboard_func_save_output_messages.php
+05:06	messageboard.php
+05:06		messageboard_interact_top.php
+05:06		unserialize messages.txt array
+05:06		iterate through array and html show
+05:06		btn button ok, button btnBackend, button btnlogout
+05:06		messageboard_showMessages_bottom.php
+05:06		messageboard_func_save_output_messages.php
+05:35	messageboard.php
+05:35		messageboard_interact_top.php
+05:35		unserialize messages.txt array
+05:35		iterate through array and html show
+05:35		btn button ok, button btnBackend, button btnlogout
+05:35		messageboard_showMessages_bottom.php
+05:35		messageboard_func_save_output_messages.php
+05:35	messageboard.php
+05:35		messageboard_interact_top.php
+05:35		unserialize messages.txt array
+05:35		iterate through array and html show
+05:35		btn button ok, button btnBackend, button btnlogout
+05:35		messageboard_showMessages_bottom.php
+05:35		messageboard_func_save_output_messages.php
+06:12	backend.php
+06:38	backend.php
+06:44	backend.php
+06:49	backend.php
+06:54	backend.php
+06:54	messageboard.php
+06:54		messageboard_interact_top.php
+06:54		unserialize messages.txt array
+06:54		iterate through array and html show
+06:54		btn button ok, button btnBackend, button btnlogout
+06:54		messageboard_showMessages_bottom.php
+06:54		messageboard_func_save_output_messages.php
+07:08	backend.php
+07:09	backend.php
+07:37	backend.php
+07:37	messageboard.php
+07:37		messageboard_interact_top.php
+07:37		unserialize messages.txt array
+07:37		iterate through array and html show
+07:37		btn button ok, button btnBackend, button btnlogout
+07:37		messageboard_showMessages_bottom.php
+07:37		messageboard_func_save_output_messages.php
+20:10	backend.php
+42:52	index.php
+42:52		index_loginForm_RegisterButton_Top.php
+42:52		index_pleaseLogin_footer.php
+28:29	backend.php
+28:29	messageboard.php
+28:30	index.php
+28:30		index_loginForm_RegisterButton_Top.php
+28:30		index_pleaseLogin_footer.php
+51:35	index.php
+51:35		index_loginForm_RegisterButton_Top.php
+51:35		index_pleaseLogin_footer.php
+51:39	scrutinizeAndLogin.php
+51:39	function scritinizeLoginData()
+51:39		function login().. unserializes regusers.txt compare username and pw
+51:39		found Username in users.txt
+51:39		pw is good
+51:39		login() set loginGood to TRUE
+51:40	messageboard.php
+51:40		messageboard_interact_top.php
+51:40		unserialize messages.txt array
+51:40		iterate through array and html show
+51:40		btn button ok, button btnBackend, button btnlogout
+51:40		messageboard_showMessages_bottom.php
+51:40		messageboard_func_save_output_messages.php
+51:42	loggedOut.php
+51:42	loggedOut.php
+51:42		loggedOut_header.php
+51:42		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+51:42		loggedOut_footer.php
+51:44	index.php
+51:44		index_loginForm_RegisterButton_Top.php
+51:44		index_pleaseLogin_footer.php
+51:47	loggedOut.php
+51:47	loggedOut.php
+51:47		loggedOut_header.php
+51:47		loggedOut_header.php, session_unset(), session_destroy(), loginButtonForm
+51:47		loggedOut_footer.php
